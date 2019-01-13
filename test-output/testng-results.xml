@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuiteHomePage" duration-ms="2591" started-at="2018-08-14T09:32:31Z" finished-at="2018-08-14T09:32:34Z">
+    <groups>
+    </groups>
+    <test name="HomePageRegressionSuite" duration-ms="2591" started-at="2018-08-14T09:32:31Z" finished-at="2018-08-14T09:32:34Z">
+      <class name="com.Automation.TestScripts.RegressionSuiteHomePage">
+        <test-method status="PASS" signature="startreport()[pri:0, instance:com.Automation.TestScripts.RegressionSuiteHomePage@43f02ef2]" name="startreport" is-config="true" duration-ms="640" started-at="2018-08-14T09:32:31Z" finished-at="2018-08-14T09:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startreport -->
+        <test-method status="PASS" signature="AppLaunch()[pri:0, instance:com.Automation.TestScripts.RegressionSuiteHomePage@43f02ef2]" name="AppLaunch" duration-ms="69" started-at="2018-08-14T09:32:32Z" finished-at="2018-08-14T09:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.Automation.TestScripts.RegressionSuiteHomePage@43f02ef2]" name="getResult" is-config="true" duration-ms="12" started-at="2018-08-14T09:32:32Z" finished-at="2018-08-14T09:32:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AppLaunch status=SUCCESS method=RegressionSuiteHomePage.AppLaunch()[pri:0, instance:com.Automation.TestScripts.RegressionSuiteHomePage@43f02ef2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:com.Automation.TestScripts.RegressionSuiteHomePage@43f02ef2]" name="endreport" is-config="true" duration-ms="1762" started-at="2018-08-14T09:32:32Z" finished-at="2018-08-14T09:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- com.Automation.TestScripts.RegressionSuiteHomePage -->
+    </test> <!-- HomePageRegressionSuite -->
+  </suite> <!-- RegressionSuiteHomePage -->
+</testng-results>
